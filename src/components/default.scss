@@ -1,0 +1,102 @@
+
+
+body{
+    margin:Auto;
+    .container{
+        margin:0px;
+        padding:0px;
+        width:100%;
+        .header{
+            background:#00aacc;
+            height:120px;
+            width:100%;
+            h1{
+                text-align:center;
+                color:white;
+                padding-top:30px;
+                margin:0px
+            }
+        }
+        .widget-alignment{
+            width:100%;
+            .widget{
+                width:35%;
+                float:left;
+                height:330px;
+                margin:30px;
+                background-color: rgba(0,0,0,.2);
+                border-radius: 5px;
+                box-shadow: 4px 4px 2px #e3e3e3;
+                .widget-header{
+                    text-align: center;
+                    color:#00aacc;
+                }
+                  .widget-content:hover{
+                     background: #00aacc;
+
+                 }
+                .widget-content{
+                border-top: 1px solid #eee;
+                padding-bottom: 3px;
+                    padding-top: 7px;
+                    padding-left:40px;
+                }
+                .widget-content>h3{
+                    margin:0px;
+                }
+                .widget-content >p{
+                
+                    font-size: 11px;
+                    font-weight: 700;
+                    color: grey;
+                    margin:2px;
+                }
+            }
+        }
+    }
+  
+}
+:global{
+    .ms-modalExample-container{
+        width:500px;
+        height:300px;
+
+        .ms-modalExample-header{
+            width:100%;
+            text-align: center;
+            height:50px;
+            background: red;
+        }
+        .modal-header{
+        color:white;
+        font-size:25px;
+        font-weight: bolder;
+        }
+        .row{
+            width:90%;
+            padding-left:5px;
+            padding-right:5px;
+            padding-top:2px
+        }
+        .leftcolumn{
+            width:20%;
+            float:left;
+        }
+        .rightcolumn{
+            width:80%;
+            float:left;
+        }
+    }
+
+}
+
+
+
+
+   
+        
+ 
+//--------
+
+
+
